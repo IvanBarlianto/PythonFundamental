@@ -286,4 +286,55 @@ print('Nilai a >> 2 =', c, 'binary :', format(c, '08b'))
 c = a << 1
 print('Nilai a << 1 =', c, 'binary :', format(c, '08b'))
 
+""" Bab 13
+Pengenalan String, dan Tata Bahasa """
+# Cara Membuat String
+'''
+    String menggunakan Single Quote '...'
+    String menggunakan Double Quote "..."
+'''
+# 1. Membuat tanda ' menjadi string
+# Sekarang hari jum'at, Pakat tanda \ sebelum ' agar terbaca string
+print('Sekarang hari jum\'at') 
+
+# 2. Backslash \, Jika ada backslash yang ingin dijadikan string, harus di double
+print('C:\\user\\Ivan')
+
+# 3. tab \t atau membuat spasi lebih jauh
+print('a\tdan\tb berjauhan')
+
+# Backspace \b atau mendekatkan string
+print('a \bb berdekatan')
+
+# New line(enter) \n \r \r\n
+# CR/Carriage Return ~> Biasa digunakan di MacOS, Linux. Unix
+print('Baris Pertama \rBaris Kedua')
+# LF/Line Feed ~> Biasa digunakan di Commodore, Acorn, Lisp
+print('Baris Pertama \nBaris Kedua')
+# CRLF/Carriage Return Line Feed ~> Biasa digunakan di Windows
+print('Baris Pertama \r\nBaris Kedua')
+
+# Raw String / r, Untuk mengubah string menjadi raw dan bebas untuk di custom
+print(r'C:/new folder')
+
+# Multiline Literal String, Fungsinya sama seperti New Line
+print("""Baris Kesatu
+Baris Kedua""")
+
+""" Bab Tambahan
+If else """
+# Ini adalah contoh if else python
+spam_amount = 0
+print(spam_amount)
+
+# Ordering Spam, egg, Spam, Spam, bacon and Spam (4 more servings of Spam)
+spam_amount = spam_amount + 4
+
+if spam_amount > 0:
+    print("But I don't want ANY spam!")
+
+viking_song = "Spam " * spam_amount
+print(viking_song)
+
+
 
